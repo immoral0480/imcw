@@ -109,7 +109,7 @@ export default function BotControlCard({
       {showStartModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white rounded-xl w-[90%] max-w-md p-6 space-y-6 shadow-lg">
-            <h2 className="text-lg font-bold text-center">프라봇을 시작합니다</h2>
+            <h2 className="text-lg font-bold text-center">이모탈봇을 시작합니다</h2>
             <div className="text-sm text-gray-800 space-y-2">
               <p>
                 <span className="font-medium">거래심볼:</span> {symbol}
@@ -143,7 +143,7 @@ export default function BotControlCard({
       {showStopModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white rounded-xl w-[90%] max-w-md p-6 space-y-6 shadow-lg">
-            <h2 className="text-lg font-bold text-center">스노봇을 중지합니다</h2>
+            <h2 className="text-lg font-bold text-center">봇을 중지합니다</h2>
             <div className="p-4 rounded-lg border border-gray-300 bg-gray-50">
               <p className="text-sm font-semibold mb-1">현재 포지션은 유지할게요</p>
               <p className="text-xs text-gray-500">봇은 중지되지만 현재 모든 포지션은 유지됩니다</p>

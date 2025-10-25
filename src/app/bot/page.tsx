@@ -179,7 +179,7 @@ export default function BotPage() {
           {/* 배너: next/image 사용 */}
           <div className="w-full h-[100px] relative overflow-hidden rounded-xl">
             <Image
-              src="/ad.jpg"
+              src="/ad.png"
               alt="이모탈 배너"
               fill
               sizes="100vw"

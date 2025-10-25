@@ -75,7 +75,7 @@ useEffect(() => {
   return (
     <>
       <Head>
-        <title>프라클</title>
+        <title>이모탈</title>
       </Head>
 
       <main className="min-h-screen flex flex-col justify-between bg-[#f5f7fa] px-4 py-6 max-w-md mx-auto text-center">
@@ -88,7 +88,7 @@ useEffect(() => {
           </section>
           <div className="flex justify-center mt-20 mb-10">
             <div className="rounded-xl p-6">
-              <Image src="/logo.jpg" alt="Logo" width={180} height={180} priority />
+              <Image src="/logo.png" alt="Logo" width={180} height={180} priority />
             </div>
           </div>
 
