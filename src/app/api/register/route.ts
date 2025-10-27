@@ -114,7 +114,7 @@ export async function POST(req: NextRequest) {
       ref_by,
       center_id,
       joined_at: joinedAt,
-      gas_grant: false,
+      gas_granted: false,
       // ⚠️ joined_date는 넣지 않음 (DB 자동)
     };
 
