@@ -22,7 +22,7 @@ useEffect(() => {
   setCalled(true);
 
   // ✅ localStorage에서 추천 코드 가져오기
-  let refBy = "MC1001";
+  let refBy = "CM1001";
   if (typeof window !== "undefined") {
     const savedRef = localStorage.getItem("ref_code");
     if (savedRef) {
